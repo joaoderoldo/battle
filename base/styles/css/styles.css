@@ -1,0 +1,49 @@
+/* ARQUIVOS ADICIONAIS */
+@font-face {
+  font-family: "notfound";
+  src: url("../../fonts/Courgette-Regular.eot");
+  src: url("../../fonts/Courgette-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Courgette-Regular.woff") format("woff"), url("../../fonts/Courgette-Regular.ttf") format("truetype"), url("../../fonts/Courgette-Regular.svg#notfound") format("svg"); }
+
+/* ARQUIVOS ADICIONAIS */
+/* ARQUIVOS DE TEMPLATES */
+html, body {
+  height: 100%; }
+
+.content-notfound {
+  width: 100%;
+  height: 100%;
+  background: #f3f3e1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 62.5%; }
+  .content-notfound .wrapper {
+    font-family: 'notfound';
+    width: 100%;
+    text-align: center; }
+    @media only screen and (min-width: 768px) {
+      .content-notfound .wrapper {
+        width: 30%; } }
+    .content-notfound .wrapper .notfound-title {
+      margin: 0;
+      color: #8F8E8C;
+      font-size: 20rem;
+      text-shadow: 1px 1px 6px #fff; }
+    .content-notfound .wrapper .notfound-subtitle {
+      color: #e492a2;
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 3rem; }
+    .content-notfound .wrapper .btn {
+      color: white;
+      background: #8F8E8C;
+      text-decoration: none;
+      padding: 7px 120px;
+      font-size: 13px;
+      font-family: arial, serif;
+      font-weight: bold;
+      -webkit-border-radius: 3em; }
+
+/* ARQUIVOS DE TEMPLATES */
